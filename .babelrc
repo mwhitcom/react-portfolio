@@ -1,3 +1,4 @@
 {
+  "plugins": ["react-css-modules"],
   "presets" : ["es2017", "react", "stage-1"]
 }
