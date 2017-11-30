@@ -1,0 +1,42 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio built with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-build": "webpack -p --watch",
+    "start": "node server.js",
+    "dev-start": "nodemon server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwhitcom/react-portfolio.git"
+  },
+  "author": "Matt Whitcomb",
+  "license": "MIT",
+  "homepage": "https://github.com/mwhitcom/react-portfolio#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.9.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
