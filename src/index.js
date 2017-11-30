@@ -6,6 +6,7 @@ import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { createStore, applyMiddleware } from 'redux';
 
+import './normalize.css';
 import Home from './components/Home/Home.js';
 
 // const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));

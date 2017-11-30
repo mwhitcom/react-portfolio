@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1 styleName='title'>Hello</h1>
+        <h1 styleName='header-text'>Hello</h1>
       </div>
     );
   }

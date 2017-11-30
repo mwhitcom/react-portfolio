@@ -2612,7 +2612,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_redux_devtools_extension__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_redux_devtools_extension___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_redux_devtools_extension__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_redux__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_Home_Home_js__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__normalize_css__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__normalize_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__normalize_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_Home_Home_js__ = __webpack_require__(104);
+
 
 
 
@@ -2636,7 +2639,7 @@ __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_3_react_router_dom__["c" /* Switch */],
       null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_router_dom__["b" /* Route */], { path: '/', component: __WEBPACK_IMPORTED_MODULE_7__components_Home_Home_js__["a" /* default */] })
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_router_dom__["b" /* Route */], { path: '/', component: __WEBPACK_IMPORTED_MODULE_8__components_Home_Home_js__["a" /* default */] })
     )
   )
 )
@@ -7721,7 +7724,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
       null,
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'h1',
-        { className: 'src-components-Home-___Home__title___d6Caa' },
+        { className: 'components-Home-___Home__header-text___2hZAv' },
         'Hello'
       )
     );
@@ -7770,11 +7773,11 @@ exports = module.exports = __webpack_require__(107)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Home-___Home__title___3o0ng{font-size:40px}", ""]);
+exports.push([module.i, ".components-Home-___Home__header-text___2hZAv{color:red}", ""]);
 
 // exports
 exports.locals = {
-	"title": "components-Home-___Home__title___3o0ng"
+	"header-text": "components-Home-___Home__header-text___2hZAv"
 };
 
 /***/ }),
@@ -8324,6 +8327,51 @@ module.exports = function (css) {
 	// send back the fixed css
 	return fixedCss;
 };
+
+
+/***/ }),
+/* 110 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(111);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(108)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../node_modules/css-loader/index.js?importLoader=1&modules&localIdentName=[path]___[name]__[local]___[hash:base64:5]!./normalize.css", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js?importLoader=1&modules&localIdentName=[path]___[name]__[local]___[hash:base64:5]!./normalize.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 111 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(107)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:\"\";content:none}table{border-collapse:collapse;border-spacing:0}", ""]);
+
+// exports
 
 
 /***/ })
