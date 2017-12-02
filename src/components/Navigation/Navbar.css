@@ -1,0 +1,40 @@
+.navbar-container {
+  height: 90px;
+  width: 100%;
+  padding: 15px;
+}
+.header-title {
+  float: left;
+  width: 65%;
+  height: 100%;
+}
+.header-title a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 45px;  
+  color: #fff;
+  letter-spacing: 5px;  
+  text-decoration: none;
+}
+.link-list {
+  float: left;
+  height: 100%;
+  width: 35%;
+}
+.link-list li {
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+.link-list li a {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: monospace;  
+  font-size: 20px;  
+  color: #fff;
+  text-decoration: none;
+}
+.link-list li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  color: #dddddd;
+}
