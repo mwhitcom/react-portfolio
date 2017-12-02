@@ -10,8 +10,8 @@ export default function Navbar() {
       <h1 styleName={'header-title'}><Link to="/">MATT WHITCOMB</Link></h1>
       <ul styleName={'link-list'}>
         <li><Link to="/about">ABOUT</Link></li>
-        <li><Link to="/projects">RESUME</Link></li>
-        <li><Link to="/resume">PROJECTS</Link></li>
+        <li><Link to="/resume">RESUME</Link></li>
+        <li><Link to="/projects">PROJECTS</Link></li>
       </ul>
     </div>  
   );
