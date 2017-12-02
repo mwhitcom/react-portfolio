@@ -5,13 +5,15 @@
   overflow: auto;
   font-family: monospace;
   color: #fff;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 24px;
+  font-size: 18px;
 }
 .front-end-list,
 .back-end-list {
   float: left;
   width: 50%;
+  padding-top: 15px;
+  padding-left: 30px;
 }
 .tab {
   padding-left: 20px;

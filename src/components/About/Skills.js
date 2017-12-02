@@ -3,16 +3,19 @@ import React from 'react';
 import './Skills.css';
 
 export default function Skills(props) {
-  const frontList = props.skills.frontEnd.map(front => 
+  const frontLength = props.skills.frontEnd.length - 1;
+  const frontList = props.skills.frontEnd.map((front, index) => 
     <p styleName={'tab'}>
       <span styleName={'orange'}>'{front}'</span>
-      <span>,</span>
+      <span>{index === frontLength ? '' : ','}</span>
     </p>
   );
-  const backList = props.skills.backEnd.map(back => 
+  
+  const backLength = props.skills.backEnd.length - 1;  
+  const backList = props.skills.backEnd.map((back, index) => 
     <p styleName={'tab'}>
       <span styleName={'orange'}>'{back}'</span>
-      <span>,</span>
+      <span>{index === backLength ? '' : ','}</span>
     </p>
   );
 
