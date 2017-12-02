@@ -1,0 +1,27 @@
+.skills-container {
+  float: left;
+  width: 50%;
+  height: calc(100% - 90px);
+  overflow: auto;
+  font-family: monospace;
+  color: #fff;
+  line-height: 20px;
+  font-size: 14px;
+}
+.front-end-list,
+.back-end-list {
+  float: left;
+  width: 50%;
+}
+.tab {
+  padding-left: 20px;
+}
+.light-blue {
+  color:#61AFEF;
+}
+.blue {
+  color: #26B7B0;
+}
+.orange {
+  color: #D29A67;
+}

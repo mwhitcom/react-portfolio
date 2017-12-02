@@ -1,0 +1,44 @@
+.bio-container {
+  float: left;
+  width: 50%;
+  height: calc(100% - 90px);
+  overflow: auto;
+}
+.bio-text {
+  color: #fff;
+}
+.paragraph {
+  padding: 15px;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 20px;
+}
+.bio-title {
+  color: #fff;
+  font-size: 34px;
+  font-family: monospace;
+  padding: 15px;
+}
+.contact-list {
+  color: #99C379;
+  font-family: monospace;
+  padding: 15px;
+  font-size: 20px;
+}
+.contact-list li {
+  padding-bottom: 20px;
+}
+.contact-list li a {
+  text-decoration: none;
+  color: #99C379;  
+}
+.contact-list li:hover,
+.contact-list li a:hover {
+  color:#61AFEF;
+}
+.blue {
+  color:#61AFEF;
+}
+.grey {
+  color: #A9A9A9;
+}

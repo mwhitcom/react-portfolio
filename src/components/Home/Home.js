@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 
-import Filler from '../../utils/FillerData';
+import Data from '../../utils/Data';
 
 import Navbar from '../Navigation/Navbar';
 import AnimatedBackground from './AnimatedBackground';
@@ -13,7 +13,7 @@ class Home extends Component {
       <div>
         <Navbar />
         <IntroText />
-        <AnimatedBackground gifurl={Filler.gifurl} />
+        <AnimatedBackground gifurl={Data.gifurl} />
       </div>
     );
   }
