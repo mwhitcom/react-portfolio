@@ -43,7 +43,8 @@ table {
 
 /* Border Box */
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
+	background: #000;
 }
 *,
 *:before,

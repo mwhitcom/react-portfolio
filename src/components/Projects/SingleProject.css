@@ -1,0 +1,52 @@
+.single-container {
+  background: #2D2D2D;
+  width: 45%;
+  float: left;  
+  border: 2px solid #2D2D2D;
+  height: 500px;
+  margin: 10px;
+  margin-top: none;
+}
+.image-container {
+  min-height: 25%;
+  max-height: 33%;
+  float: left;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: #2D2D2D;
+}
+.image {
+  width: 100%;
+  background-color: #fff;
+}
+.info-container {
+  height: 67%;
+  width: 100%;
+  float: left;
+  padding: 15px;
+  font-family: monospace;
+  font-size: 14px;
+  color: #fff;
+  line-height: 18px;
+  overflow: auto;
+}
+.project-link {
+  text-decoration: none;
+  color: #99C379;  
+}
+.project-link:hover {
+  text-decoration: underline;
+}
+.tab {
+  padding-left: 20px;
+}
+.light-blue {
+  color:#61AFEF;
+}
+.blue {
+  color: #26B7B0;
+}
+.orange {
+  color: #D29A67;
+}

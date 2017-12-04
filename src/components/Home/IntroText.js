@@ -6,8 +6,8 @@ export default function IntroText() {
   return (
     <div styleName={'intro-text-container'}>
       <Typist>
-        <p styleName={'intro-text'}>> Hello, I am a Front-End Web Developer.</p>
-        <p styleName={'intro-text'}>> I Love to Code.</p>
+        <p styleName={'intro-text'}>> Hello, I am a front-end web developer.</p>
+        <p styleName={'intro-text'}>> I love to code.</p>
       </Typist>
     </div>
   );
