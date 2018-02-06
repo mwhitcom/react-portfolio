@@ -3,7 +3,7 @@
   width: 45%;
   float: left;  
   border: 2px solid #2D2D2D;
-  height: 500px;
+  height: 525px;
   margin: 10px;
   margin-top: none;
 }
@@ -25,11 +25,12 @@
   width: 100%;
   float: left;
   padding: 15px;
+  padding-bottom: 0;
   font-family: monospace;
   font-size: 14px;
   color: #fff;
   line-height: 18px;
-  overflow: auto;
+  overflow: hidden;
 }
 .project-link {
   text-decoration: none;

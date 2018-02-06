@@ -8,7 +8,7 @@ class Resume extends Component {
     return (
       <div styleName={'resume-page'}>
         <Navbar />
-        <object data="assets/MattWhitcombResume2017.pdf" width="100%" height="100%" type='application/pdf'>
+        <object data="assets/MattWhitcombResume2018.pdf" width="100%" height="100%" type='application/pdf'>
           <p>Sorry, the PDF could not be displayed</p>
         </object>
       </div>
