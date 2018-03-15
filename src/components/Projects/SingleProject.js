@@ -9,11 +9,14 @@ export default function SingleProject(props) {
       <span>{index === techLength ? '' : ', '}</span>
     </p>
   );
+  const style = {
+    backgroundImage: `url(${props.project.image})`
+  };
   
   return (
     <div styleName={'single-container'}>
-      <div styleName={'image-container'}>
-        <img styleName={'image'} src={props.project.image} alt={props.project.name} />
+      <div styleName={'image-container'} style={style}>
+        {/* <img styleName={'image'} src={props.project.image} alt={props.project.name} /> */}
       </div>
       <div styleName={'info-container'}>
         <p>

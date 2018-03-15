@@ -1607,20 +1607,26 @@ var createTransitionManager = function createTransitionManager() {
 const Data = {
   gifurl: 'https://i.pinimg.com/originals/dd/cb/1f/ddcb1fa912f785e19329d4dde984d8ec.gif',
   bio: {
-    text: ['The moment I knew I’d be a “nerd for life” was when I was seven years old and my dad helped me build my first computer. I am a web developer, avid video gamer, musician, and recent graduate of the UCLA Full Stack Web Development Course where I expanded my knowledge in coding.', 'I am a quick learner who adapts to any situation. I enjoy combining my creative and analytical skills to develop smooth, efficient, and beautiful websites. I am a fully capable web developer with knowledge of both front-end and back-end languages with an interest in all things UI/UX.'],
+    text: ['The moment I knew I’d be a “nerd for life” was when I was seven years old and my dad helped me build my first computer. I am a web developer, avid video gamer, musician, and always hungry to learn new technology and master what I already know.', 'Web Developer skilled in both front and backend design with a passion for UI functionality. Able to build a complex website from wireframe to rollout. Proficient in React/Redux for front-end and Node.js/Express for back-end utilizing Google Cloud Functions, MongoDB, MySQL, PostgreSQL, and Firebase/Firestore. Able to work with diverse teams to complete projects and learn new technologies on the fly.'],
     github: 'https://github.com/mwhitcom',
     linkedin: 'https://www.linkedin.com/in/mattdwhitcomb'
   },
   skills: {
-    frontEnd: ['React.js', 'Redux', 'React Router', 'JavaScript', 'es2017', 'jQuery', 'HTML / CSS', 'SEO', 'CSS Modules', 'SASS', 'Bootstrap', 'Materialize', 'Webpack', 'Babel', 'Photoshop', 'Wire Framing'],
-    backEnd: ['Node.js', 'Express / Koa', 'Java', 'GraphQL', 'RSS Feeds', 'Data Streams', 'MongoDB', 'MySQL', 'PostgreSQL', 'Firebase']
+    frontEnd: ['React.js', 'Redux', 'JavaScript', 'es2017', 'jQuery', 'HTML / CSS', 'SEO', 'CSS Modules', 'SASS', 'Bootstrap', 'Materialize', 'Webpack', 'Babel', 'Photoshop', 'Wire Framing'],
+    backEnd: ['Node.js', 'Express / Koa', 'Google Cloud Functions', 'RSS Feeds', 'Data Streams', 'MongoDB', 'MySQL', 'PostgreSQL', 'Firebase / Firestore']
   },
   projects: [{
     name: 'infamousPR',
-    image: '/assets/infamous_logo_black.png',
+    image: '/assets/infamous.jpg',
     link: 'http://infamouspr.herokuapp.com/',
     about: 'Freelance WIP - Building website for Infamous PR from design to deployment. Link is to live test server.',
-    tech: ['React.js', 'Redux', 'Redux-Thunk', 'CSS Modules', 'Webpack', 'Firebase', 'Cloud Functions', 'GCP', 'Wire Framing', 'Architecture Planning']
+    tech: ['React.js', 'Redux', 'Redux-Thunk', 'CSS Modules', 'Webpack', 'Firebase', 'Google Cloud Functions', 'Wire Framing', 'Architecture Planning']
+  }, {
+    name: 'datavest',
+    image: '/assets/datavest.png',
+    link: 'https://datavest.org/',
+    about: 'Contract Front End Developer tasked with creating a basic informational website for financial app startup.',
+    tech: ['HTML', 'CSS', 'jQuery', 'Parcel', 'Design Documents']
   }, {
     name: 'playlistRadio',
     image: '/assets/playlistradio.jpg',
@@ -9151,20 +9157,17 @@ function SingleProject(props) {
       index === techLength ? '' : ', '
     )
   ));
+  const style = {
+    backgroundImage: `url(${props.project.image})`
+  };
 
   return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
     'div',
     {
       className: __WEBPACK_IMPORTED_MODULE_0_babel_plugin_react_css_modules_dist_browser_getClassName___default()('single-container', _styleModuleImportMap)
     },
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'div',
-      {
-        className: __WEBPACK_IMPORTED_MODULE_0_babel_plugin_react_css_modules_dist_browser_getClassName___default()('image-container', _styleModuleImportMap)
-      },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('img', { src: props.project.image, alt: props.project.name, className: __WEBPACK_IMPORTED_MODULE_0_babel_plugin_react_css_modules_dist_browser_getClassName___default()('image', _styleModuleImportMap)
-      })
-    ),
+    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement('div', { style: style, className: __WEBPACK_IMPORTED_MODULE_0_babel_plugin_react_css_modules_dist_browser_getClassName___default()('image-container', _styleModuleImportMap)
+    }),
     __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
       'div',
       {
@@ -9328,7 +9331,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Projects-___SingleProject__single-container___16QSa{background:#2d2d2d;width:45%;float:left;border:2px solid #2d2d2d;height:525px;margin:10px;margin-top:none}.components-Projects-___SingleProject__image-container___14jRr{min-height:25%;max-height:33%;float:left;width:100%;text-align:center;overflow:hidden;background:#2d2d2d}.components-Projects-___SingleProject__image___jFaea{width:100%;background-color:#fff}.components-Projects-___SingleProject__info-container___3zt_3{height:67%;width:100%;float:left;padding:15px;padding-bottom:0;font-family:monospace;font-size:14px;color:#fff;line-height:18px;overflow:hidden}.components-Projects-___SingleProject__project-link___3oDkr{text-decoration:none;color:#99c379}.components-Projects-___SingleProject__project-link___3oDkr:hover{text-decoration:underline}.components-Projects-___SingleProject__tab___2uNn2{padding-left:20px}.components-Projects-___SingleProject__light-blue___3yOJ6{color:#61afef}.components-Projects-___SingleProject__blue___29Wxq{color:#26b7b0}.components-Projects-___SingleProject__orange___GQ4C_{color:#d29a67}", ""]);
+exports.push([module.i, ".components-Projects-___SingleProject__single-container___16QSa{background:#2d2d2d;width:45%;float:left;border:2px solid #2d2d2d;height:525px;margin:10px;margin-top:none}.components-Projects-___SingleProject__image-container___14jRr{height:30%;float:left;width:100%;text-align:center;overflow:hidden;background:#2d2d2d;background:no-repeat 50%;background-size:cover}.components-Projects-___SingleProject__image___jFaea{width:100%;background-color:#fff}.components-Projects-___SingleProject__info-container___3zt_3{height:70%;width:100%;float:left;padding:15px;padding-bottom:0;font-family:monospace;font-size:14px;color:#fff;line-height:18px;overflow:hidden}.components-Projects-___SingleProject__project-link___3oDkr{text-decoration:none;color:#99c379}.components-Projects-___SingleProject__project-link___3oDkr:hover{text-decoration:underline}.components-Projects-___SingleProject__tab___2uNn2{padding-left:20px}.components-Projects-___SingleProject__light-blue___3yOJ6{color:#61afef}.components-Projects-___SingleProject__blue___29Wxq{color:#26b7b0}.components-Projects-___SingleProject__orange___GQ4C_{color:#d29a67}", ""]);
 
 // exports
 exports.locals = {

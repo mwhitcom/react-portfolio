@@ -8,20 +8,21 @@
   margin-top: none;
 }
 .image-container {
-  min-height: 25%;
-  max-height: 33%;
+  height: 30%;
   float: left;
   width: 100%;
   text-align: center;
   overflow: hidden;
   background: #2D2D2D;
+  background: no-repeat center;
+  background-size: cover;
 }
 .image {
   width: 100%;
   background-color: #fff;
 }
 .info-container {
-  height: 67%;
+  height: 70%;
   width: 100%;
   float: left;
   padding: 15px;

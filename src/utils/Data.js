@@ -2,17 +2,16 @@ const Data = {
   gifurl: 'https://i.pinimg.com/originals/dd/cb/1f/ddcb1fa912f785e19329d4dde984d8ec.gif',
   bio: {
     text: [
-      'The moment I knew I’d be a “nerd for life” was when I was seven years old and my dad helped me build my first computer. I am a web developer, avid video gamer, musician, and recent graduate of the UCLA Full Stack Web Development Course where I expanded my knowledge in coding.', 
-      'I am a quick learner who adapts to any situation. I enjoy combining my creative and analytical skills to develop smooth, efficient, and beautiful websites. I am a fully capable web developer with knowledge of both front-end and back-end languages with an interest in all things UI/UX.'
+      'The moment I knew I’d be a “nerd for life” was when I was seven years old and my dad helped me build my first computer. I am a web developer, avid video gamer, musician, and always hungry to learn new technology and master what I already know.',
+      'Web Developer skilled in both front and backend design with a passion for UI functionality. Able to build a complex website from wireframe to rollout. Proficient in React/Redux for front-end and Node.js/Express for back-end utilizing Google Cloud Functions, MongoDB, MySQL, PostgreSQL, and Firebase/Firestore. Able to work with diverse teams to complete projects and learn new technologies on the fly.'
     ],
-      github: 'https://github.com/mwhitcom',
-  linkedin: 'https://www.linkedin.com/in/mattdwhitcomb',
+    github: 'https://github.com/mwhitcom',
+    linkedin: 'https://www.linkedin.com/in/mattdwhitcomb',
   },
   skills: {
     frontEnd: [
       'React.js',
       'Redux',
-      'React Router',
       'JavaScript',
       'es2017',
       'jQuery',
@@ -30,23 +29,29 @@ const Data = {
     backEnd: [
       'Node.js',
       'Express / Koa',
-      'Java',
-      'GraphQL',
+      'Google Cloud Functions',
       'RSS Feeds',
       'Data Streams',
       'MongoDB',
       'MySQL',
       'PostgreSQL',
-      'Firebase'
+      'Firebase / Firestore'
     ]  
   },
   projects: [
     {
       name: 'infamousPR',
-      image: '/assets/infamous_logo_black.png',
+      image: '/assets/infamous.jpg',
       link: 'http://infamouspr.herokuapp.com/',
       about: 'Freelance WIP - Building website for Infamous PR from design to deployment. Link is to live test server.',
-      tech: ['React.js', 'Redux', 'Redux-Thunk', 'CSS Modules', 'Webpack', 'Firebase', 'Cloud Functions', 'GCP', 'Wire Framing', 'Architecture Planning']
+      tech: ['React.js', 'Redux', 'Redux-Thunk', 'CSS Modules', 'Webpack', 'Firebase', 'Google Cloud Functions', 'Wire Framing', 'Architecture Planning']
+    },
+    {
+      name: 'datavest',
+      image: '/assets/datavest.png',
+      link: 'https://datavest.org/',
+      about: 'Contract Front End Developer tasked with creating a basic informational website for financial app startup.',
+      tech: ['HTML', 'CSS', 'jQuery', 'Parcel', 'Design Documents']
     },
     {
       name: 'playlistRadio',
