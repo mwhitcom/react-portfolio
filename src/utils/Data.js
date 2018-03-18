@@ -42,7 +42,7 @@ const Data = {
     {
       name: 'infamousPR',
       image: '/assets/infamous.jpg',
-      link: 'http://infamouspr.herokuapp.com/',
+      link: 'https://infamous-pr.firebaseapp.com/',
       about: 'Freelance WIP - Building website for Infamous PR from design to deployment. Link is to live test server.',
       tech: ['React.js', 'Redux', 'Redux-Thunk', 'CSS Modules', 'Webpack', 'Firebase', 'Google Cloud Functions', 'Wire Framing', 'Architecture Planning']
     },
