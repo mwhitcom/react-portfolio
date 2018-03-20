@@ -18,7 +18,6 @@ const Data = {
       'HTML / CSS',
       'SEO',
       'CSS Modules',
-      'SASS',
       'Bootstrap',
       'Materialize',
       'Webpack',
@@ -67,29 +66,7 @@ const Data = {
       about: 'Full Stack Contract Developer work with DataLA, City of Los Angeles Web Development. Developed an ETL pipeline website with a team to improve efficiency of data querying for employees of the House + Community Investment Department.',
       tech: ['Node.js', 'Express', 'PostgreSQL', 'Data Streams', 'Sequelize', 'HandlebarsJS', 'Babel', 'es2017']
     }
-    // {
-    //   name: 'trainBot',
-    //   image: '/assets/trainbot_logo.png',
-    //   link: 'github.com/mwhitcom/TrainBot',
-    //   about: 'A business website template for personal trainers, allowing them to keep track of clients and disperse workout program information to user over the web.',
-    //   tech: ['JavaScript', 'jQuery', 'Handlebars.js', 'Node.js', 'Express.js', 'Sequelize', 'MySQL', 'HTML5', 'CSS3']
-    // },
-    // {
-    //   name: 'moveTo',
-    //   image: 'assets/moveToBanner.png',
-    //   link: 'github.com/mwhitcom/project-one',
-    //   about: 'A website that efficiently provides a quick snapshot of a location a user may be interested in moving to.',
-    //   tech: ['JavaScript', 'jQuery', 'Firebase', 'Node.js', 'Express.js', 'CSS3', 'HTML5', 'Material Design Lite', 'Google Charts', 'Google Map API', 'Various Other APIs']
-    // }
   ]
 };
 
 export default Data;
-
-// {
-//   name:
-//   image:
-//   link:
-//   about:
-//   tech:
-// },
