@@ -23,7 +23,8 @@ const Data = {
       'Webpack',
       'Babel',
       'Photoshop',
-      'Wire Framing'
+      'Wire Framing',
+      'Testing'
     ],
     backEnd: [
       'Node.js',
