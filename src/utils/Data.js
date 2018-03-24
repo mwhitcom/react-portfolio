@@ -35,7 +35,8 @@ const Data = {
       'MongoDB',
       'MySQL',
       'PostgreSQL',
-      'Firebase / Firestore'
+      'Firebase',
+      'Firestore'
     ]  
   },
   projects: [
