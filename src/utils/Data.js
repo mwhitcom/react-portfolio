@@ -43,8 +43,8 @@ const Data = {
     {
       name: 'infamousPR',
       image: '/assets/infamous.jpg',
-      link: 'https://infamous-pr.firebaseapp.com/',
-      about: 'Freelance WIP - Building website for Infamous PR from design to deployment. Link is to live test server.',
+      link: 'https://infamouspr.com/',
+      about: 'Built a new company website and CMS from scratch. UI/UX design, front-end, back-end, and 3rd party integrations. Utilizing React/Redux in front-end and express, Google Cloud Functions, and Firestore in back-end.',
       tech: ['React.js', 'Redux', 'Redux-Thunk', 'CSS Modules', 'Webpack', 'Firebase', 'Google Cloud Functions', 'Wire Framing', 'Architecture Planning']
     },
     {
