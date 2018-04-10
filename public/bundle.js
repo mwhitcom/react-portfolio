@@ -16824,7 +16824,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n  vertical-align: baseline;\n}\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n/* Border Box */\nhtml {\n\tbox-sizing: border-box;\n\tbackground: #000;\n}\n*,\n*:before,\n*:after {\n  box-sizing: inherit;\n}", ""]);
+exports.push([module.i, "a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:\"\";content:none}table{border-collapse:collapse;border-spacing:0}html{box-sizing:border-box;background:#000}*,:after,:before{box-sizing:inherit}", ""]);
 
 // exports
 
@@ -17045,7 +17045,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Navigation-___Navbar__navbar-container___4UcZR {\n  height: 90px;\n  width: 100%;\n  padding: 15px;\n}\n.components-Navigation-___Navbar__header-title___37oKK {\n  float: left;\n  width: 65%;\n  height: 100%;\n}\n.components-Navigation-___Navbar__header-title___37oKK a {\n  font-family: 'Montserrat', sans-serif;\n  font-weight: 400;\n  font-size: 45px;  \n  color: #fff;\n  letter-spacing: 5px;  \n  text-decoration: none;\n}\n.components-Navigation-___Navbar__link-list___12HHs {\n  float: left;\n  height: 100%;\n  width: 35%;\n}\n.components-Navigation-___Navbar__link-list___12HHs li {\n  float: left;\n  width: 33%;\n  text-align: left;\n}\n.components-Navigation-___Navbar__link-list___12HHs li a {\n  /* font-family: 'Montserrat', sans-serif; */\n  font-family: monospace;  \n  font-size: 20px;  \n  color: #fff;\n  text-decoration: none;\n}\n.components-Navigation-___Navbar__link-list___12HHs li a:hover {\n  text-decoration: underline;\n  text-decoration-color: #fff;\n  color: #dddddd;\n}", ""]);
+exports.push([module.i, ".components-Navigation-___Navbar__navbar-container___4UcZR{height:90px;width:100%;padding:15px}.components-Navigation-___Navbar__header-title___37oKK{float:left;width:65%;height:100%}.components-Navigation-___Navbar__header-title___37oKK a{font-family:Montserrat,sans-serif;font-weight:400;font-size:45px;color:#fff;letter-spacing:5px;text-decoration:none}.components-Navigation-___Navbar__link-list___12HHs{float:left;height:100%;width:35%}.components-Navigation-___Navbar__link-list___12HHs li{float:left;width:33%;text-align:left}.components-Navigation-___Navbar__link-list___12HHs li a{font-family:monospace;font-size:20px;color:#fff;text-decoration:none}.components-Navigation-___Navbar__link-list___12HHs li a:hover{text-decoration:underline;text-decoration-color:#fff;color:#ddd}", ""]);
 
 // exports
 exports.locals = {
@@ -17127,7 +17127,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Home-___AnimatedBackground__gif-container___mzvea{\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  z-index: -1;\n}\n.components-Home-___AnimatedBackground__gif___2c5jF {\n  width: 100%;\n  min-width: 850px;\n  margin-top: -20%;\n}", ""]);
+exports.push([module.i, ".components-Home-___AnimatedBackground__gif-container___mzvea{position:absolute;top:0;width:100%;height:100%;overflow:hidden;z-index:-1}.components-Home-___AnimatedBackground__gif___2c5jF{width:100%;min-width:850px;margin-top:-20%}", ""]);
 
 // exports
 exports.locals = {
@@ -17227,7 +17227,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Home-___IntroText__intro-text-container___qM6zs {\n  padding-left: 20px;\n}\n.components-Home-___IntroText__intro-text___2F7L7 {\n  color: #fff;\n  font-family: monospace;\n  font-size: 16px;\n  padding-bottom: 10px;\n}", ""]);
+exports.push([module.i, ".components-Home-___IntroText__intro-text-container___qM6zs{padding-left:20px}.components-Home-___IntroText__intro-text___2F7L7{color:#fff;font-family:monospace;font-size:16px;padding-bottom:10px}", ""]);
 
 // exports
 exports.locals = {
@@ -17321,7 +17321,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-About-___About__about-page___2rOzZ {\n  height: 100vh;\n  width: 100vw;\n  background-color: #000;\n}", ""]);
+exports.push([module.i, ".components-About-___About__about-page___2rOzZ{height:100vh;width:100vw;background-color:#000}", ""]);
 
 // exports
 exports.locals = {
@@ -17562,7 +17562,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-About-___Bio__bio-container___246_x {\n  float: left;\n  width: 50%;\n  height: calc(100% - 90px);\n  overflow: auto;\n}\n.components-About-___Bio__bio-text___WoQbt {\n  color: #fff;\n}\n.components-About-___Bio__paragraph___3vbJp {\n  padding: 15px;\n  font-family: monospace;\n  font-size: 18px;\n  line-height: 20px;\n}\n.components-About-___Bio__bio-title___Rw6Hh {\n  color: #fff;\n  font-size: 34px;\n  font-family: monospace;\n  padding: 15px;\n}\n.components-About-___Bio__contact-list___hIdwx {\n  color: #99C379;\n  font-family: monospace;\n  padding: 15px;\n  font-size: 20px;\n}\n.components-About-___Bio__contact-list___hIdwx li {\n  padding-bottom: 20px;\n}\n.components-About-___Bio__contact-list___hIdwx li a {\n  text-decoration: none;\n  color: #99C379;  \n}\n.components-About-___Bio__contact-list___hIdwx li:hover,\n.components-About-___Bio__contact-list___hIdwx li a:hover {\n  color:#61AFEF;\n}\n.components-About-___Bio__blue___2s0Xy {\n  color:#61AFEF;\n}\n.components-About-___Bio__grey___HvNbl {\n  color: #A9A9A9;\n}", ""]);
+exports.push([module.i, ".components-About-___Bio__bio-container___246_x{float:left;width:50%;height:calc(100% - 90px);overflow:auto}.components-About-___Bio__bio-text___WoQbt{color:#fff}.components-About-___Bio__paragraph___3vbJp{padding:15px;font-family:monospace;font-size:18px;line-height:20px}.components-About-___Bio__bio-title___Rw6Hh{color:#fff;font-size:34px;font-family:monospace;padding:15px}.components-About-___Bio__contact-list___hIdwx{color:#99c379;font-family:monospace;padding:15px;font-size:20px}.components-About-___Bio__contact-list___hIdwx li{padding-bottom:20px}.components-About-___Bio__contact-list___hIdwx li a{text-decoration:none;color:#99c379}.components-About-___Bio__blue___2s0Xy,.components-About-___Bio__contact-list___hIdwx li:hover,.components-About-___Bio__contact-list___hIdwx li a:hover{color:#61afef}.components-About-___Bio__grey___HvNbl{color:#a9a9a9}", ""]);
 
 // exports
 exports.locals = {
@@ -17766,7 +17766,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-About-___Skills__skills-container___2abiT {\n  float: left;\n  width: 50%;\n  height: calc(100% - 90px);\n  overflow: auto;\n  font-family: monospace;\n  color: #fff;\n  line-height: 24px;\n  font-size: 18px;\n}\n.components-About-___Skills__front-end-list___1MCj-,\n.components-About-___Skills__back-end-list___1PGGY {\n  float: left;\n  width: 50%;\n  padding-top: 15px;\n  padding-left: 30px;\n}\n.components-About-___Skills__tab___2ATX5 {\n  padding-left: 20px;\n}\n.components-About-___Skills__light-blue___3yXze {\n  color:#61AFEF;\n}\n.components-About-___Skills__blue___uikft {\n  color: #26B7B0;\n}\n.components-About-___Skills__orange___2rkAd {\n  color: #D29A67;\n}", ""]);
+exports.push([module.i, ".components-About-___Skills__skills-container___2abiT{float:left;width:50%;height:calc(100% - 90px);overflow:auto;font-family:monospace;color:#fff;line-height:24px;font-size:18px}.components-About-___Skills__back-end-list___1PGGY,.components-About-___Skills__front-end-list___1MCj-{float:left;width:50%;padding-top:15px;padding-left:30px}.components-About-___Skills__tab___2ATX5{padding-left:20px}.components-About-___Skills__light-blue___3yXze{color:#61afef}.components-About-___Skills__blue___uikft{color:#26b7b0}.components-About-___Skills__orange___2rkAd{color:#d29a67}", ""]);
 
 // exports
 exports.locals = {
@@ -17865,7 +17865,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Resume-___Resume__resume-page___2cf16 {\n  width: 100vw;\n  height: 100vh;\n  background-color: #000;  \n}", ""]);
+exports.push([module.i, ".components-Resume-___Resume__resume-page___2cf16{width:100vw;height:100vh;background-color:#000}", ""]);
 
 // exports
 exports.locals = {
@@ -17952,7 +17952,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Projects-___Projects__projects-page___6aJha {\n  width: 100vw;\n  background-color: #000;\n  overflow: auto;\n}", ""]);
+exports.push([module.i, ".components-Projects-___Projects__projects-page___6aJha{width:100vw;background-color:#000;overflow:auto}", ""]);
 
 // exports
 exports.locals = {
@@ -18029,7 +18029,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Projects-___ProjectGrid__grid-container___3e2rG {\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: row;\n  flex-wrap: wrap;\n  flex-flow: row wrap;\n  align-content: space-around;\n}", ""]);
+exports.push([module.i, ".components-Projects-___ProjectGrid__grid-container___3e2rG{width:100vw;display:flex;align-items:center;justify-content:center;flex-direction:row;flex-wrap:wrap;flex-flow:row wrap;align-content:space-around}", ""]);
 
 // exports
 exports.locals = {
@@ -18259,7 +18259,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".components-Projects-___SingleProject__single-container___16QSa {\n  background: #2D2D2D;\n  width: 45%;\n  float: left;  \n  border: 2px solid #2D2D2D;\n  height: 525px;\n  margin: 10px;\n  margin-top: none;\n}\n.components-Projects-___SingleProject__image-container___14jRr {\n  height: 30%;\n  float: left;\n  width: 100%;\n  text-align: center;\n  overflow: hidden;\n  background: #2D2D2D;\n  background: no-repeat center;\n  background-size: cover;\n}\n.components-Projects-___SingleProject__image___jFaea {\n  width: 100%;\n  background-color: #fff;\n}\n.components-Projects-___SingleProject__info-container___3zt_3 {\n  height: 70%;\n  width: 100%;\n  float: left;\n  padding: 15px;\n  padding-bottom: 0;\n  font-family: monospace;\n  font-size: 14px;\n  color: #fff;\n  line-height: 18px;\n  overflow: hidden;\n}\n.components-Projects-___SingleProject__project-link___3oDkr {\n  text-decoration: none;\n  color: #99C379;  \n}\n.components-Projects-___SingleProject__project-link___3oDkr:hover {\n  text-decoration: underline;\n}\n.components-Projects-___SingleProject__tab___2uNn2 {\n  padding-left: 20px;\n}\n.components-Projects-___SingleProject__light-blue___3yOJ6 {\n  color:#61AFEF;\n}\n.components-Projects-___SingleProject__blue___29Wxq {\n  color: #26B7B0;\n}\n.components-Projects-___SingleProject__orange___GQ4C_ {\n  color: #D29A67;\n}\n", ""]);
+exports.push([module.i, ".components-Projects-___SingleProject__single-container___16QSa{background:#2d2d2d;width:45%;float:left;border:2px solid #2d2d2d;height:525px;margin:10px;margin-top:none}.components-Projects-___SingleProject__image-container___14jRr{height:30%;float:left;width:100%;text-align:center;overflow:hidden;background:#2d2d2d;background:no-repeat 50%;background-size:cover}.components-Projects-___SingleProject__image___jFaea{width:100%;background-color:#fff}.components-Projects-___SingleProject__info-container___3zt_3{height:70%;width:100%;float:left;padding:15px;padding-bottom:0;font-family:monospace;font-size:14px;color:#fff;line-height:18px;overflow:hidden}.components-Projects-___SingleProject__project-link___3oDkr{text-decoration:none;color:#99c379}.components-Projects-___SingleProject__project-link___3oDkr:hover{text-decoration:underline}.components-Projects-___SingleProject__tab___2uNn2{padding-left:20px}.components-Projects-___SingleProject__light-blue___3yOJ6{color:#61afef}.components-Projects-___SingleProject__blue___29Wxq{color:#26b7b0}.components-Projects-___SingleProject__orange___GQ4C_{color:#d29a67}", ""]);
 
 // exports
 exports.locals = {
