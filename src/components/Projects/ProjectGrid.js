@@ -4,6 +4,7 @@ import './ProjectGrid.css';
 
 import Data from '../../utils/Data.js';
 import SingleProject from './SingleProject';
+import ProjectModal from './ProjectModal';
 
 const customStyles = {
   content: {
@@ -12,7 +13,11 @@ const customStyles = {
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
-    transform: 'translate(-50%, -50%)'
+    transform: 'translate(-50%, -50%)',
+    padding: '0px',
+    borderRadius: '0px',
+    border: 'none',
+    backgroundColor: '#000',
   },
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.75)'
@@ -23,16 +28,19 @@ class ProjectGrid extends Component {
   constructor() {
     super();
     this.state = {
-      modalIsOpen: false
+      modalIsOpen: false,
+      filter: ''
     };
   }
 
-  openModal = () => {
+  openModal = (event) => {
     this.setState({ modalIsOpen: true });
+    this.filterData(event.target.id);
   }
 
-  afterOpenModal = () => {
-    this.subtitle.style.color = '#f00';
+  filterData = (type) => {
+    const [filter] = Data.projects.filter(project => project.name === type);
+    this.setState({ filter });
   }
 
   closeModal = () => {
@@ -45,21 +53,11 @@ class ProjectGrid extends Component {
       <div styleName="grid-container">
         <Modal
           isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
           style={customStyles}
-          contentLabel="Example Modal"
+          contentLabel="Project Modal"
         >
-          <h2 ref={subtitle => this.subtitle = subtitle}>Hello</h2>
-          <button onClick={this.closeModal}>close</button>
-          <div>I am a modal</div>
-          <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
-          </form>
+          <ProjectModal closeModal={this.closeModal} project={this.state.filter} />
         </Modal>
         {projects}
       </div>

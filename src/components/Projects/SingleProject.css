@@ -29,6 +29,7 @@
 }
 .title {
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
   font-size: 45px;
   position: absolute;
   top: 20%;
@@ -40,6 +41,7 @@
 }
 .sub-headline {
   color: #bbbbbb;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   position: absolute;
   top: 30%;

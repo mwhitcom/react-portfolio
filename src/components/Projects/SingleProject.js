@@ -8,7 +8,7 @@ export default function SingleProject(props) {
       <div styleName={'project-label'}>
         <h1 styleName={'title'}>{props.project.name.toUpperCase()}</h1>
         <h2 styleName={'sub-headline'}>{props.project.sub}</h2>
-        <button onClick={props.openModal}>LEARN MORE</button>
+        <button onClick={props.openModal} id={props.project.name}>LEARN MORE</button>
       </div>
     </div>
   );
