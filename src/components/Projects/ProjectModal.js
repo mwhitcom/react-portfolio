@@ -26,7 +26,7 @@ export default function SingleProject(props) {
     autoplaySpeed: 2500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    adaptiveHeight: true,
+    adaptiveHeight: true
   };
   
   return (
