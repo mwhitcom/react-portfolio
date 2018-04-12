@@ -50,14 +50,14 @@ const Data = {
       tech: ['React.js', 'Redux', 'Redux-Thunk', 'CSS Modules', 'Webpack', 'Firebase', 'Google Cloud Functions', 'Wire Framing', 'Architecture Planning'],
       images: [
         '/assets/infamous_main.png',
-        '/assets/infamous_1.png',
-        '/assets/infamous_2.png',
-        '/assets/infamous_3.png',
-        '/assets/infamous_4.png',
-        '/assets/infamous_5.png',
-        '/assets/infamous_6.png',
-        '/assets/infamous_7.png',
-        '/assets/infamous_8.png'
+        '/assets/infamous1.png',
+        '/assets/infamous2.png',
+        '/assets/infamous3.png',
+        '/assets/infamous4.png',
+        '/assets/infamous5.png',
+        '/assets/infamous6.png',
+        '/assets/infamous7.png',
+        '/assets/infamous8.png'
       ]
     },
     {
