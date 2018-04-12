@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import './ProjectModal.css';
 
 export default function SingleProject(props) {
-  const { codeName, link, about, tech, images } = props.project;
+  const { codeName, link, about, tech, images, link_text, code, code_link } = props.project;
   const techLength = tech.length - 1;  
   const techList = tech.map((item, index) =>
     <span>
@@ -43,8 +43,13 @@ export default function SingleProject(props) {
           <span>= &#123;</span>
         </p>
         <p styleName={'tab space'}>
-          <span styleName={'blue'}>link: </span>
-          <span><a styleName={'project-link'} href={link} target="_blank">{link}</a></span>
+          <span styleName={'blue'}>website: </span>
+          <span><a styleName={'project-link'} href={link} target="_blank">{link_text}</a></span>
+          <span>,</span>
+        </p>
+        <p styleName={'tab space'}>
+          <span styleName={'blue'}>code: </span>
+          <span><a styleName={'project-link'} href={code_link} target="_blank">{code}</a></span>
           <span>,</span>
         </p>
         <p styleName={'tab space'}>
