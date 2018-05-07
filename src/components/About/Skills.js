@@ -3,18 +3,18 @@ import React from 'react';
 import './Skills.css';
 
 export default function Skills(props) {
-  const frontLength = props.skills.frontEnd.length - 1;
-  const frontList = props.skills.frontEnd.map((front, index) => 
+  const frontLength = props.skills.first.length - 1;
+  const frontList = props.skills.first.map((skill, index) => 
     <p styleName={'tab'}>
-      <span styleName={'orange'}>'{front}'</span>
+      <span styleName={'orange'}>'{skill}'</span>
       <span>{index === frontLength ? '' : ','}</span>
     </p>
   );
   
-  const backLength = props.skills.backEnd.length - 1;  
-  const backList = props.skills.backEnd.map((back, index) => 
+  const backLength = props.skills.second.length - 1;  
+  const backList = props.skills.second.map((skill, index) => 
     <p styleName={'tab'}>
-      <span styleName={'orange'}>'{back}'</span>
+      <span styleName={'orange'}>'{skill}'</span>
       <span>{index === backLength ? '' : ','}</span>
     </p>
   );
@@ -24,7 +24,7 @@ export default function Skills(props) {
       <div styleName={'front-end-list'}>
         <p>
           <span styleName={'light-blue'}>let </span>
-          <span styleName={'blue'}>frontEndSkills </span>
+          <span styleName={'blue'}>skills </span>
           <span>= &#91;</span>
         </p>
         {frontList}
@@ -33,7 +33,7 @@ export default function Skills(props) {
       <div styleName={'back-end-list'}>
         <p>
           <span styleName={'light-blue'}>let </span>
-          <span styleName={'blue'}>backEndSkills </span>
+          <span styleName={'blue'}>skillsContinued </span>
           <span>= &#91;</span>
         </p>
         {backList}

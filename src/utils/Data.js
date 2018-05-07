@@ -9,34 +9,46 @@ const Data = {
     linkedin: 'https://www.linkedin.com/in/mattdwhitcomb',
   },
   skills: {
-    frontEnd: [
+    first: [
       'React.js',
       'Redux',
+      'Redux Sagas',
+      'React Router',
       'JavaScript',
       'es2017',
       'jQuery',
       'HTML / CSS',
+      'cssnext',
+      'PostCSS',
       'SEO',
       'CSS Modules',
       'Bootstrap',
       'Materialize',
-      'Webpack',
-      'Babel',
-      'Photoshop',
-      'Wire Framing',
-      'Testing'
+      'React Google Maps',
+      'Recharts',
+      'Jest',
+      'Enzyme',
+      'Swagger'
     ],
-    backEnd: [
+    second: [
       'Node.js',
-      'Express / Koa',
+      'Express',
       'Google Cloud Functions',
       'RSS Feeds',
+      'Web Sockets',
       'Data Streams',
       'MongoDB',
       'MySQL',
       'PostgreSQL',
       'Firebase',
-      'Firestore'
+      'Firestore',
+      'Circle CI',
+      'Webpack',
+      'Babel',
+      'Photoshop',
+      'Wire Framing',
+      'Unit Testing',
+      'ESLint'
     ]  
   },
   projects: [
@@ -61,6 +73,28 @@ const Data = {
         '/assets/infamous6.png',
         '/assets/infamous7.png',
         '/assets/infamous8.png'
+      ]
+    },
+    {
+      name: 'ssh tracker',
+      codeName: 'sshTracker',
+      sub: 'React / Redux / Express / MySQL',
+      code: 'https://github.com/spencercharest/ssh-tracker',
+      code_link: 'https://github.com/spencercharest/ssh-tracker',
+      image_main: '/assets/sshtracker_main.png',
+      link: 'https://ssh.bhsplex.com',
+      link_text: 'https://ssh.bhsplex.com',
+      about: 'An application to track and visualize failed SSH attempts on a server',
+      tech: ['React.js', 'Redux', 'Redux Sagas', 'cssnext', 'PostCSS', 'Jest', 'Enzyme', 'Recharts', 'Circle CI', 'Swagger'],
+      images: [
+        '/assets/sshtracker_main.png',
+        '/assets/sshtracker1.png',
+        '/assets/sshtracker2.png',
+        '/assets/sshtracker3.png',
+        '/assets/sshtracker4.png',
+        '/assets/sshtracker5.png',
+        '/assets/sshtracker6.png',
+
       ]
     },
     {
