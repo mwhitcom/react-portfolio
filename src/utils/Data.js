@@ -40,6 +40,7 @@ const Data = {
       'MongoDB',
       'MySQL',
       'PostgreSQL',
+      'Sequelize',
       'Firebase',
       'Firestore',
       'Circle CI',
@@ -78,7 +79,7 @@ const Data = {
     {
       name: 'ssh tracker',
       codeName: 'sshTracker',
-      sub: 'React / Redux / Express / MySQL',
+      sub: 'React / Redux / Express',
       code: 'https://github.com/spencercharest/ssh-tracker',
       code_link: 'https://github.com/spencercharest/ssh-tracker',
       image_main: '/assets/sshtracker_main.png',
